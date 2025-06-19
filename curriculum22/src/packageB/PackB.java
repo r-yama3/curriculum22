@@ -4,15 +4,15 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class PackB {
-	String country;
-	String food;
+	private String country;
+	private String food;
 
 	public PackB(String country, String food) {
 		this.country = country;
 		this.food = food;
 	}
 
-	public void swoInfo() {
+	public void showInfo() {
 		System.out.println("こんにちは！ここは" + country + "です！");
 		//こんにちは！ここは日本です！
 		System.out.println("この" + food + "はうまい");
